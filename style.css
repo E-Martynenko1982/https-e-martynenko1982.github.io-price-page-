@@ -106,6 +106,16 @@ html {
   border-radius: 20px;
   text-align: center;
   text-transform: uppercase;
+  border: none;
+}
+.price-card__order-btn-t1 {
+  background-color: #5bb189;
+}
+.price-card__order-btn-t2 {
+  background-color: #3a6ba5;
+}
+.price-card__order-btn-t3 {
+  background-color: #ec632a;
 }
 
 /*# sourceMappingURL=style.css.map */

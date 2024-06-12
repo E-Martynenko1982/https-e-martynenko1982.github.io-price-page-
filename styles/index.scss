@@ -120,5 +120,18 @@ html {
     border-radius: 20px;
     text-align: center;
     text-transform: uppercase;
+    border: none;
+  }
+
+  &__order-btn-t1 {
+    background-color: $color-t1;
+  }
+
+  &__order-btn-t2 {
+    background-color: $color-t2;
+  }
+
+  &__order-btn-t3 {
+    background-color: $color-t3;
   }
 }

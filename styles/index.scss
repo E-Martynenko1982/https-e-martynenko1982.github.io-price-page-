@@ -48,6 +48,7 @@ html {
 
   &__title-label {
     position: relative;
+    overflow: hidden;
   }
 
   &__label {
@@ -63,11 +64,10 @@ html {
     text-transform: uppercase;
     color: #fff;
 
-    transform: perspective(120px) rotate(47deg);
-    overflow: hidden;
+    transform: rotate(47deg);
 
-    top: -4px;
-    right: -32px;
+    top: 33px;
+    right: -33px;
   }
 
   &__price {
@@ -181,3 +181,23 @@ html {
     background-color: $color-t3;
   }
 }
+
+// &__label {
+//     position: absolute;
+//     margin: auto;
+//     width: 147px;
+//     height: 25px;
+//     line-height: 25px;
+//     background-color: $label-background;
+//     font-weight: 700;
+//     font-size: 14px;
+//     text-align: center;
+//     text-transform: uppercase;
+//     color: #fff;
+
+//     transform: perspective(120px) rotate(47deg);
+//     overflow: hidden;
+
+//     top: -4px;
+//     right: -32px;
+//   }

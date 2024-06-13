@@ -43,6 +43,7 @@ html {
 }
 .price-card__title-label {
   position: relative;
+  overflow: hidden;
 }
 .price-card__label {
   position: absolute;
@@ -56,10 +57,9 @@ html {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  transform: perspective(120px) rotate(47deg);
-  overflow: hidden;
-  top: -4px;
-  right: -32px;
+  transform: rotate(47deg);
+  top: 33px;
+  right: -33px;
 }
 .price-card__price {
   margin-top: 33px;

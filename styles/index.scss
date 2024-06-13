@@ -33,7 +33,6 @@ html {
   }
 
   &__title-orange {
-    margin-top: 36px;
     margin-bottom: 0;
   }
 
@@ -88,9 +87,10 @@ html {
   }
 
   &__description {
+    margin: auto;
     margin-top: 40px;
     margin-bottom: 0;
-    padding-left: 26px;
+    //padding-left: 26px;
     width: 339px;
     font-weight: 300;
     font-size: 15px;

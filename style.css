@@ -31,7 +31,6 @@ html {
   text-align: center;
 }
 .price-card__title-orange {
-  margin-top: 36px;
   margin-bottom: 0;
 }
 .price-card__title-caption {
@@ -77,9 +76,9 @@ html {
   background-color: #ec632a;
 }
 .price-card__description {
+  margin: auto;
   margin-top: 40px;
   margin-bottom: 0;
-  padding-left: 26px;
   width: 339px;
   font-weight: 300;
   font-size: 15px;

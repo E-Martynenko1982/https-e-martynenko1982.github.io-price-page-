@@ -24,10 +24,14 @@ html {
   background-color: #334247;
 }
 .price-card__title {
+  margin-top: 33px;
   font-weight: 700;
   font-size: 35px;
   line-height: 43px;
   text-align: center;
+}
+.price-card__title-orange {
+  margin-top: 36px;
 }
 .price-card__title-caption {
   display: block;

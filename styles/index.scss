@@ -25,10 +25,15 @@ html {
   background-color: $background-color-card;
 
   &__title {
+    margin-top: 33px;
     font-weight: 700;
     font-size: 35px;
     line-height: 43px;
     text-align: center;
+  }
+
+  &__title-orange {
+    margin-top: 36px;
   }
 
   &__title-caption {

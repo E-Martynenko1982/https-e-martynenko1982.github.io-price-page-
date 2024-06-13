@@ -15,6 +15,7 @@ html {
   align-items: center;
   gap: 18px;
   min-height: 100vh;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.09);
 }
 
 .price-card {
@@ -45,6 +46,7 @@ html {
 }
 .price-card__label {
   position: absolute;
+  margin: auto;
   width: 147px;
   height: 25px;
   line-height: 25px;
@@ -54,7 +56,7 @@ html {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  transform: rotate(45deg);
+  transform: perspective(120px) rotate(47deg);
   overflow: hidden;
   top: -4px;
   right: -32px;
@@ -79,7 +81,7 @@ html {
   margin: auto;
   margin-top: 40px;
   margin-bottom: 0;
-  width: 339px;
+  width: 327px;
   font-weight: 300;
   font-size: 15px;
   text-align: center;

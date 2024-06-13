@@ -1,4 +1,5 @@
 @import "./variables.scss";
+
 * {
   box-sizing: border-box;
 }
@@ -16,6 +17,7 @@ html {
   align-items: center;
   gap: 18px;
   min-height: 100vh;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.09);
 }
 
 .price-card {
@@ -50,6 +52,7 @@ html {
 
   &__label {
     position: absolute;
+    margin: auto;
     width: 147px;
     height: 25px;
     line-height: 25px;
@@ -60,7 +63,7 @@ html {
     text-transform: uppercase;
     color: #fff;
 
-    transform: rotate(45deg);
+    transform: perspective(120px) rotate(47deg);
     overflow: hidden;
 
     top: -4px;
@@ -90,8 +93,8 @@ html {
     margin: auto;
     margin-top: 40px;
     margin-bottom: 0;
-    //padding-left: 26px;
-    width: 339px;
+
+    width: 327px;
     font-weight: 300;
     font-size: 15px;
     text-align: center;

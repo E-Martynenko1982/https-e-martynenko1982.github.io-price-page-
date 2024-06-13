@@ -57,12 +57,9 @@ html {
   margin-bottom: 0;
   padding-left: 26px;
   width: 339px;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 15px;
   text-align: center;
-}
-.price-card__description-styled {
-  font-weight: 400;
 }
 .price-card__options-list {
   position: absolute;
@@ -121,5 +118,3 @@ html {
 .price-card__order-btn-t3 {
   background-color: #ec632a;
 }
-
-/*# sourceMappingURL=style.css.map */

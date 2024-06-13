@@ -63,8 +63,13 @@ html {
     margin-bottom: 0;
     padding-left: 26px;
     width: 339px;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 15px;
+    text-align: center;
+  }
+
+  &__description-styled {
+    font-weight: 400;
   }
 
   &__options-list {

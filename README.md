@@ -1,6 +1,8 @@
-Price cards layout(fixed design)
+# Price cards layout.
 
-https://e-martynenko1982.github.io/https-e-martynenko1982.github.io-price-page-/
+### [Site link] ( https://e-martynenko1982.github.io/price-cards-layout/)
+
+Layout supports desktop (up-to-1400) version
 
 ### The tech stack is:
 
@@ -12,4 +14,4 @@ https://e-martynenko1982.github.io/https-e-martynenko1982.github.io-price-page-/
 
 Author
 
-Evgeniy Martynenko
+- Evgeniy Martynenko

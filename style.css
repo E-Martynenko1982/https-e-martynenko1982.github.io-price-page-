@@ -1,5 +1,5 @@
 .price-card {
-  width: 380px;
+  min-width: 380px;
   height: 770px;
   line-height: 100%;
   background-color: #334247;
@@ -124,6 +124,7 @@
   text-transform: uppercase;
   border: none;
   color: #fff;
+  cursor: pointer;
 }
 .price-card__order-btn-t1 {
   background-color: #5bb189;

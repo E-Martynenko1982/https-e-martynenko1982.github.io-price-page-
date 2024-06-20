@@ -1,6 +1,6 @@
 # Price cards layout.
 
-### [Site link] ( https://e-martynenko1982.github.io/price-cards-layout/)
+### [Site link](https://e-martynenko1982.github.io/price-cards-layout/)
 
 Layout supports desktop (up-to-1400) version
 

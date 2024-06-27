@@ -8,15 +8,18 @@
 html {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
+
   background-color: $background-color-html;
   color: $text-color;
 }
 
 .page {
+  min-height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 18px;
-  min-height: 100vh;
+
   box-shadow: 0 6px 6px 0 $box-shadow;
 }
